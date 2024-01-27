@@ -45,4 +45,16 @@ def student(firstname, lastname):
 #keyword argumennts
 student(firstname = 'Geeks',lastname = 'practice')
 student(lastname = 'practice',firstname = 'geeks')
+
+def student(firstname, lastname):
+ print(firstname, lastname)
+#keyword argumennts
+student(firstname = 'Geeks',lastname = 'practice')
+student(lastname = 'practice',firstname = 'Geeks')
+
+def add_numbers (num1, num2):
+    sum = num1 + num2
+    print("sum: ",sum)
+    
+add_numbers(5,4)
     
