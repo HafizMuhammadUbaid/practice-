@@ -38,3 +38,11 @@ def myFun(x, y = 50):
   print("y: ", y)
 #Driver code
 myFun(10)
+
+
+def student(firstname, lastname):
+ print(firstname, lastname)
+#keyword argumennts
+student(firstname = 'Geeks',lastname = 'practice')
+student(lastname = 'practice',firstname = 'geeks')
+    
