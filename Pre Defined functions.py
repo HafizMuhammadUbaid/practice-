@@ -57,4 +57,14 @@ def add_numbers (num1, num2):
     print("sum: ",sum)
     
 add_numbers(5,4)
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
+ages = {"Muhammad Ubaid": 15, "Musaddiq": 30}
+print(ages["Muhammad Ubaid"])
     
